@@ -1,7 +1,28 @@
 //====================================== PUT SOME CODE HERE
 
-//this is new
+
+function setTheme(theme) {
+
+    switch (theme) {
+        case theme1:
+            
+            break;
+
+        case theme2:
+            
+            break;
+        
+        case theme3:
+            
+            break;
+
+        case theme4:
+            
+            break;
+        
+        default:
+            break;
+    }
 
 
-
-//YO
+}

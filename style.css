@@ -9,6 +9,24 @@
   --misc: #c9cba3;
 }
 
+:root.theme1 {
+  --base: #22223b;
+  --wrapper: #4a4e69;
+  --outer: #9a8c98;
+  --inner: #c9ada7;
+  --misc: #f2e9e4;
+}
+
+:root.theme2 {
+  --base: #0c1a1a;
+  --wrapper: #053430;
+  --outer: #396662;
+  --misc: #7d9093;
+  --inner: #cfcfd1;
+}
+
+
+
 body {
   background-color: var(--base);
   padding: 10px;
