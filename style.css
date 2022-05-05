@@ -1,20 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Patrick+Hand+SC&display=swap");
 
 
-:root {
+:root, root.theme1 {
   --base: #472d30;
   --wrapper: #723d46;
   --outer: #e26d5c;
   --inner: #ffe1a8;
   --misc: #c9cba3;
-}
-
-:root.theme1 {
-  --base: #22223b;
-  --wrapper: #4a4e69;
-  --outer: #9a8c98;
-  --inner: #c9ada7;
-  --misc: #f2e9e4;
 }
 
 :root.theme2 {
@@ -25,6 +17,21 @@
   --inner: #cfcfd1;
 }
 
+:root.theme3 {
+  --base: #22223b;
+  --wrapper: #4a4e69;
+  --outer: #9a8c98;
+  --inner: #c9ada7;
+  --misc: #f2e9e4;
+}
+
+:root.theme4 {
+  --base: #193f59;
+  --wrapper: #657c8c;
+  --outer: #8ec2bb;
+  --inner: #f4baaf;
+  --misc: #fae1e1;
+}
 
 
 body {
@@ -35,12 +42,21 @@ body {
   font-size: x-large;
 }
 
+main {
+  display: grid;
+  gap: 20px
+}
+
 h1 {
   font-family: "Patrick Hand SC", cursive;
   font-size: xx-large;
   text-decoration: underline;
   text-align: center;
   margin: 0;
+}
+
+footer {
+  text-align: center;
 }
 
 .page-wrapper {
@@ -62,7 +78,6 @@ h1 {
 }
 
 .centered {
-  /* display: flex; */
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -112,7 +127,7 @@ h1 {
 
 .color-base {  background-color: var(--base);  }
 
-.color-primary {  background-color: var(--wrapper);  }
+.color-wrapper {  background-color: var(--wrapper);  }
 
 .color-outer {  background-color: var(--outer);  }
 
@@ -142,7 +157,23 @@ aside {
   text-indent: 40px;
 }
 
-main {
-  display: grid;
-  gap: 20px
+button {
+  font-family: "Patrick Hand", cursive;
+  font-size: x-large;
+  padding: 0;
+  margin: 0;
+  background-color: var(--inner);
+
+  border-top: 3px solid var(--misc);
+  border-left: 3px solid var(--misc);
+  border-bottom: 3px solid var(--wrapper);
+  border-right: 3px solid var(--wrapper);
+  border-radius: 5px;
+}
+
+button:active {
+  border-top: 3px solid var(--wrapper);
+  border-left: 3px solid var(--wrapper);
+  border-bottom: 3px solid var(--misc);
+  border-right: 3px solid var(--misc);
 }
