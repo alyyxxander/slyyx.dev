@@ -55,6 +55,13 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  font-family: "Patrick Hand SC", cursive;
+  font-size: x-large;
+  text-decoration: underline;
+  margin: 0;
+}
+
 footer {
   text-align: center;
 }
@@ -91,7 +98,7 @@ footer {
 
 .container-2 {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
   gap: 5px;
 }
 
@@ -105,6 +112,7 @@ footer {
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+  place-self: start;
 }
 
 .colors-used h3 {
@@ -160,8 +168,6 @@ aside {
 button {
   font-family: "Patrick Hand", cursive;
   font-size: x-large;
-  padding: 0;
-  margin: 0;
   background-color: var(--inner);
 
   border-top: 3px solid var(--misc);
@@ -171,9 +177,28 @@ button {
   border-radius: 5px;
 }
 
+
+
 button:active {
   border-top: 3px solid var(--wrapper);
   border-left: 3px solid var(--wrapper);
   border-bottom: 3px solid var(--misc);
   border-right: 3px solid var(--misc);
 }
+
+
+
+.nav-bar {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+
+.theme-buttons {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  max-width: 300px;
+  width: 50%;
+  place-self: end;
+}
+
