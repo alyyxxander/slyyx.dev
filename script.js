@@ -1,13 +1,10 @@
 
-
 //this runs when the page is loaded for the first time
 showColorsUsed();
 
 
-
 //====================================== VARIABLES
 var baseColor, wrapperColor, outerColor, innerColor, miscColor;
-
 
 
 
@@ -21,7 +18,6 @@ function setTheme(theme) {
 }
 
 function showColorsUsed() {
-
     //update variables, which change depending onn the current page theme 
     baseColor = window.getComputedStyle(document.documentElement).getPropertyValue('--base');
     wrapperColor = window.getComputedStyle(document.documentElement).getPropertyValue('--wrapper');
