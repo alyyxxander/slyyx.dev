@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 181.68 135.3">
+    <defs>
+        <style>
+            .cls-1,
+            .cls-2{
+                fill:none;
+                stroke-miterlimit:10;
+                stroke-width:2px;
+            }
+            .cls-1{
+                stroke:url(#Degradado_sin_nombre_34);
+            }
+            .cls-2{
+                stroke:#fff;
+                stroke-linecap:round;
+                stroke-dasharray:0 10;
+            }
+        </style>
+        <linearGradient id="Degradado_sin_nombre_34" y1="67.65" x2="181.68" y2="67.65" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ff4ed2"/>
+            <stop offset="0.05" stop-color="#e84cd7"/>
+            <stop offset="0.16" stop-color="#ba47e0"/>
+            <stop offset="0.27" stop-color="#9543e7"/>
+            <stop offset="0.37" stop-color="#7b40ed"/>
+            <stop offset="0.46" stop-color="#6c3ff0"/>
+            <stop offset="0.53" stop-color="#663ef1"/>
+            <stop offset="1" stop-color="#ff4ed2"/>
+        </linearGradient>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="OBJECTS">
+            <path class="cls-1" d="M160.68,134.3H1V21L21,1H180.68V114.3ZM1.93,28.76l22.34-22h97.26m-90.13,0L2,36.19m149.28,92,29.44-29.44m0,7.43-22.34,22h-96"/>
+            <line class="cls-2" x1="35.56" y1="17.75" x2="111.01" y2="17.75"/>
+            <line class="cls-2" x1="143" y1="118.19" x2="67.56" y2="118.19"/>
+        </g>
+    </g>
+</svg>

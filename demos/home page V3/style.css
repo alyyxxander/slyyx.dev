@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Patrick+Hand+SC&display=swap");
+
+
+:root, root.theme1 {
+  --base: #472d30;
+  --wrapper: #723d46;
+  --outer: #e26d5c;
+  --inner: #ffe1a8;
+  --misc: #c9cba3;
+}
+
+:root.theme2 {
+  --base: #0c1a1a;
+  --wrapper: #053430;
+  --outer: #396662;
+  --misc: #7d9093;
+  --inner: #cfcfd1;
+}
+
+:root.theme3 {
+  --base: #22223b;
+  --wrapper: #4a4e69;
+  --outer: #9a8c98;
+  --inner: #c9ada7;
+  --misc: #f2e9e4;
+}
+
+:root.theme4 {
+  --base: #193f59;
+  --wrapper: #657c8c;
+  --outer: #8ec2bb;
+  --inner: #f4baaf;
+  --misc: #fae1e1;
+}
+
+
+body {
+  /* background-color: var(--base); */
+  /* padding: 10px; */
+  max-width: 100vw;
+  font-family: "Patrick Hand", cursive;
+  /* font-size: x-large; */
+
+  /* background-image: linear-gradient(to bottom left, #20133f, #321357); */
+  background-image: url("assets/Background.svg");
+  padding: 10px;
+  border-radius: 5px;
+  display: grid;
+  grid-auto-rows: min-content;
+  gap: 10px;
+  /* min-height: 92vh;
+  min-width: 90vw; */
+
+  color: white; /* text color */
+
+}
+
+.new-panel {
+  clip-path: polygon(10% 0, 90% 0, 100% 10%, 100% 90%, 90% 100%, 10% 100%, 0 90%, 0 10%);
+  padding: 20px;
+  font-size: 16pt;
+  color: white;
+  text-align: left;
+  border: 2px solid var(--wrapper);
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom left, #833ecd, #332364);
+}
+
+
+.tech-panel-1 {
+    background-image: url("assets/Asset\ 2.svg");
+    font-size: 16pt;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.tech-panel-2 {
+    /* background-image: url("assets/AssetA1.svg"); */
+    font-size: 16pt;
+    color: white;
+    /* background-repeat: no-repeat; */
+    /* background-size: 100% 100%; */
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-style: solid;
+    border-width: 60px 55px 99px 55px;
+    -moz-border-image: url("assets/AssetA1.svg") 24 30 106 30 stretch stretch;
+    -webkit-border-image: url("assets/AssetA1.svg") 24 30 106 30 stretch stretch;
+    -o-border-image: url("assets/AssetA1.svg") 24 30 106 30 stretch stretch;
+    border-image: url("assets/AssetA1.svg") 24 30 106 30 stretch stretch;
+
+    background-clip: padding-box;
+    background-color: #8144c8;
+    /* margin: 50px; */
+}
+
+.content-panel {
+    background-image: url("assets/content\ box\ 1.svg");
+    font-size: 16pt;
+    color: white;
+    /* background-repeat: no-repeat; */
+    /* background-size: 100% 100%; */
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+main {
+  display: grid;
+  gap: 20px;
+  
+}
+
+h1 {
+  font-family: "Patrick Hand SC", cursive;
+  font-size: xx-large;
+  text-decoration: underline;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Patrick Hand SC", cursive;
+  font-size: x-large;
+  text-decoration: underline;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+}
+
+.page-wrapper {
+  /* background-color: var(--wrapper); */
+  background-image: linear-gradient(to bottom left, #20133f, #321357);
+  padding: 10px;
+  border-radius: 5px;
+  display: grid;
+  grid-auto-rows: min-content;
+  gap: 10px;
+  min-height: 92vh;
+  min-width: 90vw;
+}
+
+.panel {
+  /* background-color: var(--outer); */
+  background-color: #8080802d;
+  font-family: "Patrick Hand", cursive;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.inner {
+  background-color: #5f085d;
+	border: 2px solid var(--wrapper);
+	border-radius: 5px;
+}
+
+.centered {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-1 {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 10px;
+}
+
+.container-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+
+.colors-used {
+  background-color: white;
+  border: 2px solid var(--wrapper);
+  border-radius: 5px;
+  
+  width: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  place-self: start;
+}
+
+.colors-used h3 {
+  text-decoration: underline;
+  text-align: center;
+  margin: 0;
+}
+
+
+/*~~~~~~~~~~~~~~~~ COLORED PREVIEW CIRCLES ~~~~~~~~~~~~~~~~~*/
+.preview {
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: 2px solid black;
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+.color-base {  background-color: var(--base);  }
+
+.color-wrapper {  background-color: var(--wrapper);  }
+
+.color-outer {  background-color: var(--outer);  }
+
+.color-inner {  background-color: var(--inner);  }
+
+.color-misc {  background-color: var(--misc);  }
+
+
+
+
+
+
+aside {
+  display: grid;
+  gap: 8px;
+  height: min-content;
+}
+
+.sample-panel {
+  padding: 20px;
+  font-size: 16pt;
+  text-align: left;
+}
+
+
+
+button {
+  font-family: "Patrick Hand", cursive;
+  font-size: x-large;
+  background-color: var(--inner);
+
+  border-top: 3px solid var(--misc);
+  border-left: 3px solid var(--misc);
+  border-bottom: 3px solid var(--wrapper);
+  border-right: 3px solid var(--wrapper);
+  border-radius: 5px;
+}
+
+
+
+button:active {
+  border-top: 3px solid var(--wrapper);
+  border-left: 3px solid var(--wrapper);
+  border-bottom: 3px solid var(--misc);
+  border-right: 3px solid var(--misc);
+}
+
+
+
+.nav-bar {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+
+.theme-buttons {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  max-width: 300px;
+  width: 50%;
+  place-self: end;
+}
+

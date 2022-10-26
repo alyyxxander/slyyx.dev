@@ -1,0 +1,26 @@
+{
+  "name": "dynamic-svg-6",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "debounce": "1.1.0",
+    "react": "16.1.1",
+    "react-dom": "16.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  },
+  "main": "dynamic-svg.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
