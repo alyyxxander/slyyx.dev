@@ -1,16 +1,17 @@
 import React from 'react';
-import MeasureAndRender from './measure-and-render';
-import Panel from './panel';
+import MeasureAndRender from './MeasureAndRender';
+import Panel from './Panel';
 
 export default () => {
   const styles = {
     position: 'relative',
     display: 'grid',
     gridTemplateColumns: '1fr',
-    gridTemplateRows: '45vh 45vh',
+    gridTemplateRows: 'auto',
+    minheight: '20vh'
   };
 
-  const stroke = 1;
+  const stroke = 1; 
   const offset = 0;
 
   return (

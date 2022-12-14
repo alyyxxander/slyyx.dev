@@ -213,9 +213,6 @@ footer {
 
 
 
-
-
-
 aside {
   display: grid;
   gap: 8px;
@@ -227,8 +224,6 @@ aside {
   font-size: 16pt;
   text-align: left;
 }
-
-
 
 button {
   font-family: "Patrick Hand", cursive;
@@ -242,8 +237,6 @@ button {
   border-radius: 5px;
 }
 
-
-
 button:active {
   border-top: 3px solid var(--wrapper);
   border-left: 3px solid var(--wrapper);
@@ -251,13 +244,10 @@ button:active {
   border-right: 3px solid var(--misc);
 }
 
-
-
 .nav-bar {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
-
 
 .theme-buttons {
   display: grid;
@@ -266,4 +256,3 @@ button:active {
   width: 50%;
   place-self: end;
 }
-

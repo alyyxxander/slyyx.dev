@@ -7,17 +7,13 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      name: 'React',
+      name: 'React'
     };
   }
 
   render() {
-    return (
-      <div>
-        <DynamicSVG />
-      </div>
-    );
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(DynamicSVG, null));
   }
 }
 
-render(<App />, document.getElementById('root'));
+render( /*#__PURE__*/React.createElement(App, null), document.getElementById('root'));

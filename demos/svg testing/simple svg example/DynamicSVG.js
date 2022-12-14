@@ -1,9 +1,6 @@
-// import React from 'react';
-// import MeasureAndRender from "./measure-and-render";
-// import Panel from './panel';
-const {React} = require('react');
-const {MeasureAndRender} = require('./measure-and-render');
-const {Panel} = require('./panel');
+import React from 'react';
+import MeasureAndRender from "./MeasureAndRender";
+import Panel from './Panel';
 
 export default () => {
 
@@ -38,7 +35,3 @@ export default () => {
     </div>
   )
 }
-
-const domContainer = document.querySelector('#svg-container');
-const root = ReactDOM.createRoot(domContainer);
-root.render(e(LikeButton));

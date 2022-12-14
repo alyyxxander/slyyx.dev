@@ -35,8 +35,7 @@
 
 
 body {
-  /* background-color: var(--base); */
-  background-image: url("assets/Background.svg");
+  background-color: var(--base);
   padding: 10px;
   max-width: 100vw;
   font-family: "Patrick Hand", cursive;
@@ -79,8 +78,7 @@ footer {
 }
 
 .panel {
-  /* background-color: var(--outer); */
-  background-color: #8080802d;
+  background-color: var(--outer);
   font-family: "Patrick Hand", cursive;
   padding: 10px;
   border-radius: 5px;
@@ -167,9 +165,10 @@ aside {
 }
 
 button {
-  /* font-family: "Patrick Hand", cursive; */
+  font-family: "Patrick Hand", cursive;
   font-size: x-large;
-  background-color: #d623dc93;
+  background-color: var(--inner);
+
   border-top: 3px solid var(--misc);
   border-left: 3px solid var(--misc);
   border-bottom: 3px solid var(--wrapper);
