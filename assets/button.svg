@@ -1,4 +1,8 @@
-<svg width="124" height="35" viewBox="0 0 124 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg 
+    viewBox="0 0 124 35" 
+    fill="none" 
+    preserveAspectRatio="none"
+    xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M115.248 0L124 8.82328V26.1767L115.248 35H8.75104L0 26.1774V8.82266L8.75113 0H115.248Z" fill="url(#paint0_linear_1_16)"/>
 <defs>
 <linearGradient id="paint0_linear_1_16" x1="0" y1="0" x2="124" y2="35" gradientUnits="userSpaceOnUse">
