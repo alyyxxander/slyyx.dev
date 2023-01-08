@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Date Questions</title>
+</head>
+
+<body>
+    <div class="panel">
+        <h1>Questions to ask on a date</h1>
+        <p>Click the butstons to generate new questions!</p>
+    </div>
+
+    <div class="panel questions-container">
+    
+        <div class="blue questions-box">
+            Miscelaneous
+            <textarea name="blue-question" id="blue-question" readonly></textarea>
+            <button onclick="newBlueQuestion()">New Question</button>
+        </div>
+    
+        <div class="green questions-box">
+            Surface level
+            <textarea name="green-question" id="green-question" readonly></textarea>
+            <button onclick="newGreenQuestion()">New Question</button>
+        </div>
+    
+        <div class="yellow questions-box">
+            A little more in depth
+            <textarea name="yellow-question" id="yellow-question" readonly></textarea>
+            <button onclick="newYellowQuestion()">New Question</button>
+        </div>
+    
+        <div class="red questions-box">
+            Gettin' pretty personal
+            <textarea name="red-question" id="red-question" readonly></textarea>
+            <button onclick="newRedQuestion()">New Question</button>
+        </div>
+    
+    </div>
+
+</body>
+</html>
