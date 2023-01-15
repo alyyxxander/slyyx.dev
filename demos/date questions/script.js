@@ -11,8 +11,7 @@ let blueQuestions =
         "Do you believe in extraterrestrial life? Why or why not?"];
 
 let greenQuestions = 
-        ["What is your favorite color?", 
-        "What is your favorite animal?", 
+        ["What is your favorite animal?", 
         "Where are you from?",
         "What is one thing you are very good at?",
         "What is one thing you are very bad at?",
@@ -46,11 +45,11 @@ let yellowQuestions =
         "Are you religious or spiritual?",
         "Do you have any hidden quirks?",
         "What’s a pet peeve you have?",
+        "What’s your favorite thing about yourself?",
         "Do you believe in fate?",
         "Do you believe in soul mates?",
         "What kind of partner are you?",
         "When was the last time you changed your opinion on something big?",
-        "What’s your love language?",
         "What’s your dream house look like?",
         "What is one personal “rule” that you never break?",
         "What are two things you value most about a person?"];              
@@ -58,23 +57,26 @@ let yellowQuestions =
 let redQuestions = 
         ["What’s your biggest regret in life?",
         "Are you confrontational?",
+        "What was the last thing you lied about?",
+        "What was your childhood like?",
         "What’s one thing that bothers you most about the world today?",
         "What is the darkest thought you’ve ever had? What about the darkest thing you’ve never told anybody?",
         "Is there something out there, a thought, an idea, a current event, or a fear that you find deeply unsettling?",
         "When have you felt the lowest in your life?",
         "If you were given a choice to choose your manner of death, how would you die?",
+        "How many serious relationships have you been in?",
+        "What is your biggest fear in a relationship?",
         "Name the one bad quality you wouldn’t mind in a partner.",
         "Pro life or pro choice? Why?",
         "Out of the negative emotions of greed, anger, jealousy and hate, which one would you say affects you the most?",
         "Name the one worst quality you cannot tolerate in a partner.",
-        "When you are about to go to sleep for the night, how do you do it? Lights on/off? TV on/off? Total silence? Etc.",
+        "How do you prefer the room to be when you sleep? Warm/cold? Lights on/off? TV on/off? Total silence? Etc.",
         "What are you the most ashamed of?",
         "How would you summarize your life purpose?",
         "What question do you wish you knew the answer to?",
         "What red flags or toxic traits do you have?",
         "Biggest turn off?",
         "Biggest turn on?",
-        "What’s your philosophy in life?",
         "What’s the one thing you would like to change about yourself?",
         "What's something you're physically insecure about?",
         "What's something you're emotionally insecure about?",
@@ -89,6 +91,9 @@ let archivedQuestions = [
     "What is your greatest fear?",
     "Do you play any instruments? Do you want to?",
     "What’s the coolest place you’ve traveled to?",
+    "What is your favorite color?",
+    "What’s your philosophy in life?",
+    "What’s your love language?",
 ];
 
 function newBlueQuestion() {
