@@ -1,14 +1,11 @@
 
 let blueQuestions = 
         ["When you’re feeling down, what usually cheers you up?",
-        "If you were an animal, which animal would you be?",
+        "What’s your favorite thing to do on a rainy day?",
         "Do you have any tics or weird habits?",
-        "FREEBIE - ASK ANY QUESTION YOU LIKE",
         "Have you ever been arrested?",
         "If you could get away with anything that you do?",
-        "Have you ever seen something you can’t explain?",
-        "If past lives are real, what was yours?",
-        "Do you believe in extraterrestrial life? Why or why not?"];
+        "Have you ever seen something you can’t explain?"];
 
 let greenQuestions = 
         ["What is your favorite animal?", 
@@ -22,9 +19,7 @@ let greenQuestions =
         "What’s your favorite movie?",
         "What are you the most proud of?",
         "If your life was a movie or a book what would be the title to it?",
-        "Where’s somewhere you’d like to travel to?",
         "What skill would you love to master?",
-        "What song do you sing most often in the car?",
         "What would be your ideal way to spend the weekend?",
         "What's one thing on your bucket list?",
         "What’s your favorite app?",
@@ -40,23 +35,19 @@ let greenQuestions =
         "What was the last show you watched?"];  
 
 let yellowQuestions = 
-        ["What’s the one thing that people always misunderstand about you?",
-        "What is your favorite lyric from a song? Why?",
+        ["What is your favorite lyric from a song? Why?",
         "Are you religious or spiritual?",
         "Do you have any hidden quirks?",
         "What’s a pet peeve you have?",
         "What’s your favorite thing about yourself?",
         "Do you believe in fate?",
         "Do you believe in soul mates?",
-        "What kind of partner are you?",
-        "When was the last time you changed your opinion on something big?",
-        "What’s your dream house look like?",
+        "What is your favorite quote?",
         "What is one personal “rule” that you never break?",
         "What are two things you value most about a person?"];              
 
 let redQuestions = 
-        ["What’s your biggest regret in life?",
-        "Are you confrontational?",
+        ["Are you confrontational?",
         "What was the last thing you lied about?",
         "What was your childhood like?",
         "What’s one thing that bothers you most about the world today?",
@@ -68,7 +59,6 @@ let redQuestions =
         "What is your biggest fear in a relationship?",
         "Name the one bad quality you wouldn’t mind in a partner.",
         "Pro life or pro choice? Why?",
-        "Out of the negative emotions of greed, anger, jealousy and hate, which one would you say affects you the most?",
         "Name the one worst quality you cannot tolerate in a partner.",
         "How do you prefer the room to be when you sleep? Warm/cold? Lights on/off? TV on/off? Total silence? Etc.",
         "What are you the most ashamed of?",
@@ -82,7 +72,10 @@ let redQuestions =
         "What's something you're emotionally insecure about?",
         "What's something you're mentally insecure about?",
         "Have you ever been in love?",
-        "What do you want out of a relationship?"];
+        "What do you want out of a relationship?",
+        "What’s your favorite thing about your body?",
+        "What’s your favorite thing about your personality?",
+        "What’s your favorite thing about your mind?",];
 
 
 // move questions to archivedQuestions array after they are asked
@@ -94,7 +87,31 @@ let archivedQuestions = [
     "What is your favorite color?",
     "What’s your philosophy in life?",
     "What’s your love language?",
+    "Do you believe in extraterrestrial life? Why or why not?",
+    "If past lives are real, what was yours?",
+    "If you were an animal, which animal would you be?",
+    "Where’s somewhere you’d like to travel to?",
+    "What’s the one thing that people always misunderstand about you?",
+    "What kind of partner are you?",
+    "When was the last time you changed your opinion on something big?",
+    "What’s your dream house look like?",
+    "What song do you sing most often in the car?",
+    "Out of the negative emotions of greed, anger, jealousy and hate, which one would you say affects you the most?",
+    "What’s your biggest regret in life?",
 ];
+
+
+let blueCount = blueQuestions.length;
+let greenCount = greenQuestions.length;
+let yellowCount = yellowQuestions.length;
+let redCount = redQuestions.length;
+
+//update question count and display it on the page
+document.getElementById('blue-count').innerHTML = ("blue: " + blueCount);
+document.getElementById('green-count').innerHTML = ("green: " + greenCount);
+document.getElementById('yellow-count').innerHTML = ("yellow: " + yellowCount);
+document.getElementById('red-count').innerHTML = ("red: " + redCount);
+
 
 function newBlueQuestion() {
     let randomNumber = Math.floor(Math.random() * (blueQuestions.length));

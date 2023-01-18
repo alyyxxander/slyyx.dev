@@ -13,6 +13,29 @@
     <div class="panel">
         <h1>Here's some interesting questions to ask</h1>
         <p>Click the buttons to generate new questions!</p>
+        <p>These questions are meant to be used on a date, but they can be used for any situation. 
+            They are organized by color, and each color has a different level of depth.</p>
+        <p>Blue questions are miscelaneous questions that didn't really fit in with the other color questions.</p>
+        <p>Green questions are surface level questions that are easy to answer.</p>
+        <p>Yellow questions are a little more in depth and require a little more thought.</p>
+        <p>Red questions are pretty personal and can be a little awkward to answer.</p>
+    </div>
+
+    <div class="panel">
+        <p>HOWEVER, I HAVE TO ARCHIVE THE QUESTIONS AFTER THEY'VE BEEN ASKED, AND I'M RUNNING OUT OF QUESTIONS. 
+            Here's the live number of questions available in each color:</p>
+
+        <div id="color-counts">
+            <div id="blue-count"></div>
+            <div id="green-count"></div>
+            <div id="yellow-count"></div>
+            <div id="red-count"></div>
+        </div>
+
+        <p>Please lmk if you find any interesting questions you think would be good to add! 
+            Eventually I want to add a box where new questions can be submitted, but sending 
+            data <em>to</em> the site requires me to learn some more complicated stuff I don't
+            have the time to look into right now. Eventually I will though!</p>
     </div>
 
     <div class="panel questions-container">
@@ -40,7 +63,17 @@
             <textarea name="red-question" id="red-question" readonly></textarea>
             <button onclick="newRedQuestion()">New Question</button>
         </div>
-    
+    </div>
+
+    <div class="panel to-do-list">
+        <h1>TO-DO</h1>
+        <ul>
+            <li class="done">Make site scale to mobile screens</li>
+            <li>Make page less ugly in general</li>
+            <li>Add option to submit new questions</li>
+            <li>Make fonts & text more readable</li>
+            <li>Find a way to archive the questions without manually moving the code around</li>
+        </ul>
     </div>
 
 </body>
