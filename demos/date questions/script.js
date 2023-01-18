@@ -4,6 +4,7 @@ let blueQuestions =
         "What’s your favorite thing to do on a rainy day?",
         "Do you have any tics or weird habits?",
         "Have you ever been arrested?",
+        "HEY IF YOU ARE READING THIS, I LIKE YOU A LOT!!",
         "If you could get away with anything that you do?",
         "Have you ever seen something you can’t explain?"];
 
