@@ -4,20 +4,26 @@ let blueQuestions =
         "What’s your favorite thing to do on a rainy day?",
         "Do you have any tics or weird habits?",
         "Have you ever been arrested?",
-        "HEY IF YOU ARE READING THIS, I LIKE YOU A LOT!!",
         "If you could get away with anything that you do?",
+        "Do you believe in extraterrestrial life? Why or why not?",
+        "If past lives are real, what was yours?",
+        "If you were an animal, which animal would you be?",
         "Have you ever seen something you can’t explain?"];
 
 let greenQuestions = 
         ["What is your favorite animal?", 
+        "Do you play any instruments? Do you want to?",
         "Where are you from?",
         "What is one thing you are very good at?",
+        "What’s the coolest place you’ve traveled to?",
+        "What is your favorite color?",
         "What is one thing you are very bad at?",
         "What's your favorite hobby right now?",
         "What’s something you can’t go a day without doing?",
         "What did you want to be when you were younger?",
         "Tell me a really, really stupid joke that made you laugh.",
         "What’s your favorite movie?",
+        "Where’s somewhere you’d like to travel to?",
         "What are you the most proud of?",
         "If your life was a movie or a book what would be the title to it?",
         "What skill would you love to master?",
@@ -29,6 +35,8 @@ let greenQuestions =
         "What’s your favorite social media platform?",
         "What is your go-to Karaoke song?",
         "What do you like to do for fun?",
+        "What song do you sing most often in the car?",
+        "If you are in a bad mood, do you prefer to be left alone or have someone to cheer you up?",
         "Do you believe in ghosts?",
         "What’s your guilty pleasure?",
         "What are you currently reading?",
@@ -37,19 +45,30 @@ let greenQuestions =
 
 let yellowQuestions = 
         ["What is your favorite lyric from a song? Why?",
-        "Are you religious or spiritual?",
         "Do you have any hidden quirks?",
         "What’s a pet peeve you have?",
+        "When was the last time you changed your opinion on something big?",
         "What’s your favorite thing about yourself?",
         "Do you believe in fate?",
+        "What’s your love language?",
         "Do you believe in soul mates?",
+        "Are you religious or spiritual?",
+        "What is your greatest fear?",
+        "What kind of partner are you?",
         "What is your favorite quote?",
+        "What’s your dream house look like?",
         "What is one personal “rule” that you never break?",
+        "What are your red flags?",
+        "What are your green flags?",
+        "What reg flags do you look out for?",
+        "What green flags do you look out for?",
+        "What’s your philosophy in life?",
         "What are two things you value most about a person?"];              
 
 let redQuestions = 
         ["Are you confrontational?",
         "What was the last thing you lied about?",
+        "What’s the one thing that people always misunderstand about you?",
         "What was your childhood like?",
         "What’s one thing that bothers you most about the world today?",
         "What is the darkest thought you’ve ever had? What about the darkest thing you’ve never told anybody?",
@@ -72,6 +91,8 @@ let redQuestions =
         "What's something you're physically insecure about?",
         "What's something you're emotionally insecure about?",
         "What's something you're mentally insecure about?",
+        "Out of the negative emotions of greed, anger, jealousy and hate, which one would you say affects you the most?",
+        "What’s your biggest regret in life?",
         "Have you ever been in love?",
         "What do you want out of a relationship?",
         "What’s your favorite thing about your body?",
@@ -81,24 +102,7 @@ let redQuestions =
 
 // move questions to archivedQuestions array after they are asked
 let archivedQuestions = [
-    "If you are in a bad mood, do you prefer to be left alone or have someone to cheer you up?",
-    "What is your greatest fear?",
-    "Do you play any instruments? Do you want to?",
-    "What’s the coolest place you’ve traveled to?",
-    "What is your favorite color?",
-    "What’s your philosophy in life?",
-    "What’s your love language?",
-    "Do you believe in extraterrestrial life? Why or why not?",
-    "If past lives are real, what was yours?",
-    "If you were an animal, which animal would you be?",
-    "Where’s somewhere you’d like to travel to?",
-    "What’s the one thing that people always misunderstand about you?",
-    "What kind of partner are you?",
-    "When was the last time you changed your opinion on something big?",
-    "What’s your dream house look like?",
-    "What song do you sing most often in the car?",
-    "Out of the negative emotions of greed, anger, jealousy and hate, which one would you say affects you the most?",
-    "What’s your biggest regret in life?",
+    
 ];
 
 
