@@ -95,6 +95,7 @@ let redQuestions =
         "What’s your biggest regret in life?",
         "Have you ever been in love?",
         "What do you want out of a relationship?",
+        "Why did your last relationship end?",
         "What’s your favorite thing about your body?",
         "What’s your favorite thing about your personality?",
         "What’s your favorite thing about your mind?",];
