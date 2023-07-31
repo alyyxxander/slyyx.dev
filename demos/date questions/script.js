@@ -117,6 +117,7 @@ let redQuestions =
         "What's the stupidest thing you've ever done for love?",
         "Why do you think you're still single?",
         "What is the greatest struggle you've overcome?",
+        "What was something you've done in past relationships that you have since learned from?",
         "What life event fucked you up?",
         "How did COVID and lockdown effect your mental health?",
         "How would you describe your mental health?",
