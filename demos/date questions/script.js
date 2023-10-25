@@ -8,7 +8,8 @@ let blueQuestions =
         "Do you believe in extraterrestrial life? Why or why not?",
         "If past lives are real, what was yours?",
         "If you were an animal, which animal would you be?",
-        "Have you ever seen something you can't explain?"];
+        "Have you ever seen something you can't explain?",
+        "If you could have any liquid shoot out of each of your fingers on one hand, which 5 liquids are you choosing?",];
 
 let greenQuestions = 
         ["What is your favorite animal?", 
@@ -85,6 +86,7 @@ let yellowQuestions =
 
 let redQuestions = 
         ["Are you confrontational?",
+        "If you could change your jizz's taste, smell and color what would you pick?",
         "What was the last thing you lied about?",
         "What's the one thing that people always misunderstand about you?",
         "What was your childhood like?",
@@ -132,10 +134,11 @@ let redQuestions =
         "Why did your last relationship end?",
         "What's your favorite thing about your body?",
         "What's your favorite thing about your personality?",
+        "15 second trauma dump. Ready, set GO!",
         "What's your favorite thing about your mind?",];
 
 
-// move questions to archivedQuestions array after they are asked
+//TODO: move questions to archivedQuestions array after they are asked
 let archivedQuestions = [
     
 ];
