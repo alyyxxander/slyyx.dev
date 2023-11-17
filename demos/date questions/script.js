@@ -15,6 +15,7 @@ let greenQuestions =
         ["What is your favorite animal?", 
         "Do you play any instruments? Do you want to?",
         "Where are you from?",
+        "What color folders did you associate with which school subjects?",
         "What is one thing you are very good at?",
         "What's the coolest place you've traveled to?",
         "What is your favorite color?",
